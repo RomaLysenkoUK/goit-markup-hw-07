@@ -217,7 +217,7 @@ img {
         url(../images/hero-bakg.jpg);
 }
 
-.hero-text {
+.hero__text {
     margin-top: 0px;
     margin-bottom: 30px;
     font-weight: 900;
@@ -233,7 +233,7 @@ img {
 
 }
 
-.hero-btn {
+.hero__btn {
     width: 200px;
     height: 50px;
     border-radius: 4px;
@@ -310,11 +310,11 @@ img {
     padding-bottom: 0px;
 }
 
-.future-list {
+.future__list {
     display: flex;
 }
 
-.future-item:nth-child(1)::before {
+.future__item:nth-child(1)::before {
     content: "";
     display: block;
     height: 120px;
@@ -325,7 +325,7 @@ img {
     margin-bottom: 30px;
 }
 
-.future-item:nth-child(2)::before {
+.future__item:nth-child(2)::before {
     content: "";
     display: block;
     height: 120px;
@@ -336,7 +336,7 @@ img {
     margin-bottom: 30px;
 }
 
-.future-item:nth-child(3)::before {
+.future__item:nth-child(3)::before {
     content: "";
     display: block;
     height: 120px;
@@ -347,7 +347,7 @@ img {
     margin-bottom: 30px;
 }
 
-.future-item:nth-child(4)::before {
+.future__item:nth-child(4)::before {
     content: "";
     display: block;
     height: 120px;
@@ -358,15 +358,15 @@ img {
     margin-bottom: 30px;
 }
 
-.future-item {
+.future__item {
     text-align: left;
 }
 
-.future-item+.future-item {
+.future__item+.future-item {
     margin-left: 30px;
 }
 
-.future-title-text {
+.future__title--text {
     font-size: 14px;
     line-height: 1.71;
     text-transform: uppercase;
@@ -374,21 +374,21 @@ img {
     margin-bottom: 10px;
 }
 
-.future-low-text {
+.future__low--text {
     line-height: 1.2;
     letter-spacing: 0.03em;
     color: var(--tittle-text-color);
 }
 
-.work-list {
+.work__list {
     display: flex;
 }
 
-.work-item-box {
+.work__item--box {
     position: relative;
 }
 
-.work-item-text {
+.work__item--text {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -411,7 +411,7 @@ img {
     text-transform: uppercase;
 }
 
-.work-list .work-item:not(:last-child) {
+.work__list .work__item:not(:last-child) {
     margin-right: 30px;
 }
 
@@ -551,7 +551,7 @@ img {
 
 }
 
-.section-tittle {
+.section__tittle {
     font-family: 'Roboto';
     font-size: 36px;
     line-height: 1.16;
