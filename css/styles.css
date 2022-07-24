@@ -1,4 +1,4 @@
-html {
+/*html {
     box-sizing: border-box;
 }
 
@@ -6,7 +6,7 @@ html {
 *::after,
 *::before {
     box-sizing: inherit;
-}
+}*/
 
 :root {
     --primary-text-color: #212121;
@@ -28,7 +28,7 @@ body {
     padding-top: 80px;
 }
 
-h1,
+/*h1,
 h2,
 h3,
 h4,
@@ -42,7 +42,7 @@ img {
     display: block;
     max-width: 100%;
     height: auto;
-}
+}*/
 
 .section {
     padding-top: 94px;
@@ -306,7 +306,7 @@ img {
     cursor: pointer;
 }
 
-.future {
+/*.future {
     padding-bottom: 0px;
 }
 
@@ -396,7 +396,7 @@ img {
     /*
     padding-bottom: 27px;
     padding-left: 107px;
-    padding-right: 107px;*/
+    padding-right: 107px;
 
 
     width: 100%;
@@ -458,7 +458,7 @@ img {
 
 .team-social-icon {
     fill: currentColor;
-}
+}*/
 
 .client {
     list-style: none;
@@ -515,7 +515,7 @@ img {
     margin-bottom: 0px;
 }
 
-.img-team-text {
+/*.img-team-text {
     padding-bottom: 30px;
     padding-top: 30px;
 }
@@ -549,7 +549,7 @@ img {
     padding-left: 32px;
     list-style: none;
 
-}
+}*/
 
 .section__tittle {
     font-family: 'Roboto';
