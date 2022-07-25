@@ -503,6 +503,7 @@ img {
 
     letter-spacing: 0.06em;
     margin-bottom: 4px;
+    margin-top: 0;
 
 }
 
@@ -917,16 +918,14 @@ img {
     outline: rgba(33, 33, 33, 0.2);
 }
 
-.contact-form-input:hover,
+
 .contact-form-input:focus,
-.contact-form-textarea:hover,
 .contact-form-textarea:focus {
     border-color: var(--accent-color);
     outline: var(--accent-color);
 }
 
 
-.contact-form-input:hover+.icon-contact-form>.icon-contact-form-svg,
 .contact-form-input:focus+.icon-contact-form>.icon-contact-form-svg {
     fill: var(--accent-color);
 }
